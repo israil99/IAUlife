@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="482.0" prefWidth="1020.0" style="-fx-background-image: url('file:/home/anonym/Downloads/348485-1024x680.jpg');" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.iaulife.controller.RegistrationController">
+   <children>
+      <TextField fx:id="emailFIeld" layoutX="97.0" layoutY="118.0" prefHeight="51.0" prefWidth="338.0" promptText="name.surname@iaau.edu.kg" />
+      <PasswordField fx:id="passwordField" layoutX="98.0" layoutY="208.0" prefHeight="51.0" prefWidth="338.0" promptText="Password" />
+      <Button fx:id="backButton" layoutX="100.0" layoutY="386.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="134.0" style="-fx-background-color: #CC0D1D;" text="Back" textFill="#d7c5c5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Text fontSmoothingType="LCD" layoutX="389.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-color: BLACK;" text="Registration">
+         <font>
+            <Font size="39.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="0.007407407407407408" />
+                  <Stop color="WHITE" offset="0.007407407407407408" />
+                  <Stop color="#361111" offset="0.014814814814814815" />
+                  <Stop color="#361111" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button fx:id="registerButton" layoutX="787.0" layoutY="383.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="134.0" style="-fx-background-color: #CC0D1D;" text="Register" textFill="#d7c5c5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nameField" layoutX="588.0" layoutY="118.0" prefHeight="51.0" prefWidth="338.0" promptText="Name" />
+      <TextField fx:id="surnameField" layoutX="588.0" layoutY="208.0" prefHeight="51.0" prefWidth="338.0" promptText="Surname" />
+      <TextField fx:id="genderField" layoutX="589.0" layoutY="288.0" prefHeight="51.0" prefWidth="338.0" promptText="Gender" />
+      <DatePicker fx:id="birthday" layoutX="98.0" layoutY="287.0" prefHeight="51.0" prefWidth="338.0" promptText="Birthday" />
+   </children>
+</AnchorPane>
