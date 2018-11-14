@@ -1,2 +1,0 @@
-# IAUlife
-IAU news
