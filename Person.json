@@ -1,0 +1,18 @@
+{
+  "id" : 1,
+  "firstName" : "Harry",
+  "lastName" : "Potter",
+  "status" : true
+},
+{
+  "id" : 2,
+  "firstName" : "Ronald",
+  "lastName" : "Weasley",
+  "status" : true
+},
+{
+  "id" : 3,
+  "firstName" : "Hermione",
+  "lastName" : "Weasley",
+  "status" : true
+},
