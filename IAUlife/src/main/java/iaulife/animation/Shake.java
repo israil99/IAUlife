@@ -16,5 +16,8 @@ public class Shake {
         translateTransition.setAutoReverse(true);
     }
 
+    public void playShakeAnimation(){
+        translateTransition.playFromStart();
+    }
 
 }
