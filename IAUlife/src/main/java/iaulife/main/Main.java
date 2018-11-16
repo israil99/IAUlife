@@ -14,7 +14,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent panel = null;
         try {
-            panel = FXMLLoader.load(getClass().getResource("main/java/iaulife/main/signIn.fxml"));
+            panel = FXMLLoader.load(getClass().getResource("signIn.fxml"));
         } catch (IOException e) {
             e.printStackTrace();
         }

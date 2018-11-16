@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="588.0" prefWidth="593.0" style="-fx-background-image: url('file:/home/anonym/IdeaProjects/IAUlife/IAUlife/src/main/fxml/assets/348485-1024x680.jpg');" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.iaulife.controller.AuthorizationController">
+   <children>
+      <TextField fx:id="loginField" layoutX="128.0" layoutY="278.0" prefHeight="51.0" prefWidth="338.0" promptText="name.surname@iaau.edu.kg" />
+      <PasswordField fx:id="passwordField" layoutX="131.0" layoutY="352.0" prefHeight="51.0" prefWidth="338.0" promptText="Password" />
+      <Button fx:id="signInButton" layoutX="230.0" layoutY="446.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="134.0" style="-fx-background-color: #CC0D1D;" text="Sign In" textFill="#d7c5c5">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Text layoutX="169.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Authorization">
+         <font>
+            <Font size="39.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="0.007407407407407408" />
+                  <Stop color="WHITE" offset="0.007407407407407408" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../fxml/assets/logo_4x.png.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="registerButton" layoutX="230.0" layoutY="523.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="134.0" style="-fx-background-color: #CC0D1D;" text="Register" textFill="#d7c5c5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
