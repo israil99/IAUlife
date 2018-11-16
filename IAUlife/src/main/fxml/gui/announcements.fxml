@@ -86,7 +86,7 @@
       </TextArea>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="78.0" layoutY="524.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Downloads/logo_4x.png.png" />
+            <Image url="@../assets/logo_4x.png.png" />
          </image>
       </ImageView>
    </children>

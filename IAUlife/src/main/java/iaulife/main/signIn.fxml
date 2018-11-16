@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="588.0" prefWidth="593.0" style="-fx-background-image: url('file:/home/anonym/Downloads/348485-1024x680.jpg');" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.iaulife.controller.AuthorizationController">
+<AnchorPane prefHeight="588.0" prefWidth="593.0" style="-fx-background-image: url('file:/home/anonym/IdeaProjects/IAUlife/IAUlife/src/main/fxml/assets/348485-1024x680.jpg');" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.iaulife.controller.AuthorizationController">
    <children>
       <TextField fx:id="loginField" layoutX="128.0" layoutY="278.0" prefHeight="51.0" prefWidth="338.0" promptText="name.surname@iaau.edu.kg" />
       <PasswordField fx:id="passwordField" layoutX="131.0" layoutY="352.0" prefHeight="51.0" prefWidth="338.0" promptText="Password" />
@@ -36,7 +36,7 @@
       </Text>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../Downloads/logo_4x.png.png" />
+            <Image url="@../../../fxml/assets/logo_4x.png.png" />
          </image>
       </ImageView>
       <Button fx:id="registerButton" layoutX="230.0" layoutY="523.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="134.0" style="-fx-background-color: #CC0D1D;" text="Register" textFill="#d7c5c5">
