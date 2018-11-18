@@ -36,7 +36,7 @@
       </Text>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../fxml/assets/logo_4x.png.png" />
+            <Image url="@../assets/logo_4x.png.png" />
          </image>
       </ImageView>
       <Button fx:id="registerButton" layoutX="230.0" layoutY="523.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="134.0" style="-fx-background-color: #CC0D1D;" text="Register" textFill="#d7c5c5">
