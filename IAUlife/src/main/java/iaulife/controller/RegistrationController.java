@@ -2,13 +2,15 @@ package iaulife.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-public class RegistrationController {
+public class RegistrationController extends AuthorizationController {
 
     @FXML
     private ResourceBundle resources;
@@ -42,6 +44,9 @@ public class RegistrationController {
 
     @FXML
     void initialize() {
-            
+        backButton.setOnAction((ActionEvent event) -> {
+            backButton.getScene().getWindow().hide();
+                openNewWindow("../resources/signIn.fxml");
+        });
     }
 }
