@@ -1,4 +1,4 @@
-package main.java.iaulife.controller;
+package iaulife.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;

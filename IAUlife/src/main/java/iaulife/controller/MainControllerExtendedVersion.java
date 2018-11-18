@@ -1,6 +1,6 @@
 package main.java.iaulife.controller;
 
-import main.java.iaulife.handler.DataBaseHanlder;
+import iaulife.handler.DataBaseHanlder;
 
 import java.awt.*;
 

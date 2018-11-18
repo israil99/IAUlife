@@ -1,4 +1,4 @@
-package main.java.iaulife.controller;
+package iaulife.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

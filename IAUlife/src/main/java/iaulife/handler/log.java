@@ -1,4 +1,4 @@
-package main.java.iaulife.handler;
+package iaulife.handler;
 
 import java.util.Date;
 

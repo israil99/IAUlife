@@ -1,4 +1,4 @@
-package main.java.iaulife.animation;
+package iaulife.animation;
 
 import javafx.scene.control.Alert;
 import javafx.stage.Modality;
