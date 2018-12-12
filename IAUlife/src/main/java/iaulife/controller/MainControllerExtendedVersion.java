@@ -1,10 +1,10 @@
 package main.java.iaulife.controller;
 
-import iaulife.handler.DataBaseHanlder;
+import iaulife.handler.DataBaseHandler;
 
 import java.awt.*;
 
-public class MainControllerExtendedVersion extends DataBaseHanlder {
+public class MainControllerExtendedVersion extends DataBaseHandler {
     private Button newsButton ;
     private Button eventsButton;
     private Button announcementsButton;

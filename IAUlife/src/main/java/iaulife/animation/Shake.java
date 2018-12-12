@@ -1,4 +1,4 @@
-package main.java.iaulife.animation;
+package iaulife.animation;
 import javafx.animation.TranslateTransition;
 import javafx.scene.Node;
 import javafx.util.Duration;

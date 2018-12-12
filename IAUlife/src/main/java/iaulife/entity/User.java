@@ -1,20 +1,19 @@
-package main.java.iaulife.entity;
+package iaulife.entity;
 
-public class User {
+
+public class User  {
     private String mail;
     private String password;
     private int roleId;
-    private int personId;
 
-    public User(String mail, String password, int roleId, int personId) {
+    public User(){}
+    public User(String mail, String password, int roleId) {
         this.mail = mail;
         this.password = password;
         this.roleId = roleId;
-        this.personId = personId;
     }
 
     public String getMail() {
-
         return mail;
     }
 
@@ -38,11 +37,6 @@ public class User {
         this.roleId = roleId;
     }
 
-    public int getPersonId() {
-        return personId;
-    }
 
-    public void setPersonId(int personId) {
-        this.personId = personId;
-    }
+
 }

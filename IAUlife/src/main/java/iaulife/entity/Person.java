@@ -1,22 +1,16 @@
-package main.java.iaulife.entity;
+package iaulife.entity;
 
 import java.sql.Date;
 
 public class Person {
     private String name;
     private String surname;
-    private Date birthday;
-    private String gender;
-    private int id;
-    private int userId;
+    private String birthday;
 
-    public Person(String name, String surname, Date birthday, String gender, int id, int userId) {
+    public Person(String name, String surname, String birthday) {
         this.name = name;
         this.surname = surname;
         this.birthday = birthday;
-        this.gender = gender;
-        this.id = id;
-        this.userId = userId;
     }
 
     public String getName() {
@@ -35,35 +29,12 @@ public class Person {
         this.surname = surname;
     }
 
-    public Date getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
 }

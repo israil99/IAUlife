@@ -1,4 +1,4 @@
-package main.java.iaulife.entity;
+package iaulife.entity;
 
 import java.util.Date;
 
